@@ -1,5 +1,7 @@
 # Front-end em React
 
+<br>
+
 ## HTML (Hypertext Markup Language)
 
 - Hipertexto: pode conter refências (links) navegáveis para outros textos;
@@ -57,6 +59,12 @@
 ## Documentação HTML
 
 - https://developer.mozilla.org/pt-BR/docs/Web/HTML
+
+<br>
+
+## Documentação Fontes
+
+- https://fonts.google.com/
 
 <br>
 
@@ -168,3 +176,7 @@
 - align-items: Alinhamento horizontal (flex-direction: column).
 
 <br>
+
+## Página estática com HTML e CSS
+
+
