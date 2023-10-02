@@ -179,4 +179,13 @@
 
 ## Página estática com HTML e CSS
 
+<img width="800px" src="https://raw.githubusercontent.com/lucarauj/Front-end-em-React/main/projeto-pagina-estatica/images/P%C3%A1gina%20est%C3%A1tica.png">
+
+<br>
+
+# 👨🏼‍🎓 Aluno
+
+Lucas Araujo
+
+<a href="https://www.linkedin.com/in/lucarauj"><img alt="lucarauj | LinkdeIN" width="40px" src="https://user-images.githubusercontent.com/43545812/144035037-0f415fc7-9f96-4517-a370-ccc6e78a714b.png" /></a>
 
