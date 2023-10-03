@@ -209,9 +209,14 @@ node .\aula-06\index.js
 
 <br>
 
-- *hoisting: declarações de variáveis e funções são movidas para o topo de seu escopo durante a fase de compilação, tornando-as disponíveis antes de sua declaração real no código.*
-- *undefined: valor primitivo que é atribuído automaticamente a variáveis não inicializadas.*
-- *NaN: Representa "Not-a-Number" e é um valor especial usado para indicar que uma operação matemática não produz um número válido.*
+<hr>
+
+- hoisting: 
+>*declarações de variáveis e funções são movidas para o topo de seu escopo durante a fase de compilação, tornando-as disponíveis antes de sua declaração real no código.*
+- undefined: 
+>*valor primitivo que é atribuído automaticamente a variáveis não inicializadas.*
+- NaN: 
+>*representa "Not-a-Number" e é um valor especial usado para indicar que uma operação matemática não produz um número válido.*
 
 <br>
 

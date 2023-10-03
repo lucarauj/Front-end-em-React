@@ -14,7 +14,7 @@ let notaDoAluno = 10;
 const mediaDoAluno = 8;
 
 notaDoAluno = 9;
-//mediaDoAluno = 10; //Não é permitido reatribuir valor para uma variável do tipo const
+//mediaDoAluno = 10; --> Não é permitido reatribuir valor para uma variável do tipo const
 
 console.log(notaDoAluno);
 console.log(mediaDoAluno);
