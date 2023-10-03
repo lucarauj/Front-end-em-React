@@ -183,6 +183,100 @@
 
 <br>
 
+## Executando JS:
+
+- No navegador:
+
+```
+tag <body> <script src="index.js"></script> </body>
+```
+
+<br>
+
+- No terminal:
+
+```
+node .\aula-06\index.js
+```
+
+<br>
+
+## Variáveis
+
+- var *[Evite utilizar]*: tem escopo de função, sofre hoisting e pode ser reatribuída.
+- let: tem escopo de bloco, sofre hoisting, e pode ser reatribuída.
+- const: tem escopo de bloco, sofre hoisting, mas não pode ser reatribuída após a inicialização.
+
+<br>
+
+- *hoisting: declarações de variáveis e funções são movidas para o topo de seu escopo durante a fase de compilação, tornando-as disponíveis antes de sua declaração real no código.*
+- *undefined: valor primitivo que é atribuído automaticamente a variáveis não inicializadas.*
+- *NaN: Representa "Not-a-Number" e é um valor especial usado para indicar que uma operação matemática não produz um número válido.*
+
+<br>
+
+## Conferindo o tipo de variável
+
+```
+console.log(typeof 'variável');
+```
+
+<br>
+
+## Exponenciação
+
+```
+let nota = 2 ** 3;
+```
+
+<br>
+
+## Biblioteca Math
+
+- Math.round(): Arredonda um número para o número inteiro mais próximo.
+
+- Math.floor(): Arredonda um número para baixo, obtendo o maior número inteiro menor ou igual ao valor original.
+
+- Math.ceil(): Arredonda um número para cima, obtendo o menor número inteiro maior ou igual ao valor original.
+
+- Math.abs(): Retorna o valor absoluto de um número (ou seja, torna-o positivo).
+
+- Math.max(): Retorna o maior valor entre dois ou mais números fornecidos como argumentos.
+
+- Math.min(): Retorna o menor valor entre dois ou mais números fornecidos como argumentos.
+
+- Math.random(): Retorna um número decimal aleatório entre 0 (inclusive) e 1 (exclusivo).
+
+- Math.pow(): Retorna a base elevada à potência especificada.
+
+- Math.sqrt(): Retorna a raiz quadrada de um número.
+
+- Math.PI: Uma constante que representa o valor de π (pi).
+
+<br>
+
+## Entrada de dados
+
+- No navegador:
+```
+const idade = prompt("Digite um número: ");
+```
+
+<br>
+
+- No terminal:
+```
+npm install readline-sync
+```
+```
+const readline = require("readline-sync");
+const n1 = parseInt(readline.question("Digite um numero: "));
+console.log(n1, typeof n1);
+```
+
+
+<br>
+
 # 👨🏼‍🎓 Aluno
 
 Lucas Araujo
