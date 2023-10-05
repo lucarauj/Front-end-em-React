@@ -62,6 +62,12 @@
 
 <br>
 
+## Documentação JavaScript
+
+- https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+
+<br>
+
 ## Documentação Fontes
 
 - https://fonts.google.com/
@@ -293,13 +299,108 @@ console.log(n1, typeof n1);
 - Truthy: Valores que são tratados como verdadeiros em contextos booleanos (exemplos: números diferentes de zero, strings não vazias, objetos).
 - Falsy: Valores que são tratados como falsos em contextos booleanos (exemplos: false, 0, null, undefined, NaN, strings vazias).
 
+> Boolean(0) : false
+> Boolean(null) : false
+> Boolean(NaN) : false
+> Boolean("") : false
+> Boolean(" ") : true
+
 <br>
 
-## 
+## Limpando linhas (anteriores) no console
 
+```
+console.clear( );
+```
 
+<br>
 
+## Arrays
 
+- push(): 
+>*adiciona um ou mais elementos ao final do array.*
+
+- pop(): 
+>*remove o último elemento do array e o retorna.*
+
+- shift(): 
+>*remove o primeiro elemento do array e o retorna.*
+
+- unshift(): 
+>*adiciona um ou mais elementos ao início do array.*
+
+- concat(): 
+>*combina dois ou mais arrays para criar um novo array.*
+
+- slice(): 
+>*retorna uma cópia de parte do array com base nos índices especificados.*
+
+- splice(): 
+>*permite adicionar, remover ou substituir elementos em posições específicas do array.*
+
+- forEach(): 
+>*itera sobre cada elemento do array e executa uma função de retorno para cada um.*
+
+- map(): 
+>*cria um novo array aplicando uma função a cada elemento do array original.*
+
+- filter(): 
+>*cria um novo array com todos os elementos que atendem a uma condição específica.*
+
+- reduce(): 
+>*reduz os elementos do array a um único valor aplicando uma função acumuladora.*
+
+- find(): 
+>*retorna o primeiro elemento que atende a uma condição específica.*
+
+- indexOf(): 
+>*retorna o índice do primeiro elemento igual ao valor especificado.*
+
+- lastIndexOf(): 
+>*retorna o índice do último elemento igual ao valor especificado.*
+
+- includes(): 
+>*verifica se o array contém um elemento específico e retorna true ou false.*
+
+- some(): 
+>*verifica se pelo menos um elemento atende a uma condição específica.*
+
+- every(): 
+>*verifica se todos os elementos atendem a uma condição específica.*
+
+- sort(): 
+>*ordena os elementos do array de acordo com uma função de comparação ou de forma padrão (converte elementos em strings e compara seus valores).*
+
+- reverse(): 
+>*inverte a ordem dos elementos no array.*
+
+- join(): 
+>*converte os elementos do array em uma única string, separados por um delimitador especificado.*
+
+- isArray(): 
+>*verifica se uma variável é um array e retorna true ou false.*
+
+<br>
+
+## for-of - percorrendo os elementos
+
+```
+for (const elemento of 'array') {
+  console.log(elemento);
+}
+```
+
+<br>
+
+## for-in - percorrendo os índices 
+
+```
+for (const indice in arr) {
+  console.log(indice);
+}
+```
+
+<br>
 
 
 

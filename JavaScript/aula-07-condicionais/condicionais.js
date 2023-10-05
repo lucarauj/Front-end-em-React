@@ -39,3 +39,8 @@ ternario ? console.log("Olá, Aluno!") : console.log("Você não é aluno");
 
 const mensagem = ternario ? "Olá, Aluno!" : "Você não é aluno";
 console.log(mensagem);
+
+console.log(Boolean(0));
+console.log(Boolean(null));
+console.log(Boolean(NaN));
+console.log(Boolean(" "));
