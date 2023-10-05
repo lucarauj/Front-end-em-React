@@ -152,49 +152,28 @@
 
 ## Principais estilos CSS
 
-- font-size:
->Define o tamanho do texto dentro de um elemento.
-- font-weight:
->Controla a espessura ou peso da fonte do texto.
-- line-height:
->Controla a altura da linha (espaçamento).
-- color:
->Define a cor do texto.
-- background-color:
->Define a cor de fundo de um elemento.
-- font-family:
->Especifica a família de fontes a ser usada para o texto.
-- margin:
->Define o espaço externo ao redor de um elemento.
-- padding:
->Define o espaço interno dentro de um elemento.
-- border:
->Cria uma borda ao redor de um elemento (largura, estilo e cor).
-- border-radius:
->Define o raio das bordas arredondadas de um elemento.
-- width:
->Define a largura de um elemento.
-- height:
->Define a altura de um elemento.
+- font-size: Define o tamanho do texto dentro de um elemento.
+- font-weight: Controla a espessura ou peso da fonte do texto.
+- line-height: Controla a altura da linha (espaçamento).
+- color: Define a cor do texto.
+- background-color: Define a cor de fundo de um elemento.
+- font-family: Especifica a família de fontes a ser usada para o texto.
+- margin: Define o espaço externo ao redor de um elemento.
+- padding: Define o espaço interno dentro de um elemento.
+- border: Cria uma borda ao redor de um elemento (largura, estilo e cor).
+- border-radius: Define o raio das bordas arredondadas de um elemento.
+- width: Define a largura de um elemento.
+- height: Define a altura de um elemento.
 - displays: block | inline | flex | grid:
-- block:
->Elementos empilham verticalmente e ocupam toda a largura disponível.
-- inline:
->Elementos ocupam apenas o espaço necessário no fluxo do texto.
-- flex:
->Cria um layout flexível em uma direção.
-- grid:
->Cria um layout bidimensional organizado em linhas e colunas.
-- gap:
->Define o espaçamento entre elementos em um layout flexível ou em uma grade.
-- justify-content:
->Alinhamento horizontal (flex-direction: row).
-- align-items:
->Alinhamento vertical (flex-direction: row).
-- justify-content:
->Alinhamento vertical (flex-direction: column).
-- align-items:
->Alinhamento horizontal (flex-direction: column).
+- block: Elementos empilham verticalmente e ocupam toda a largura disponível.
+- inline: Elementos ocupam apenas o espaço necessário no fluxo do texto.
+- flex: Cria um layout flexível em uma direção.
+- grid: Cria um layout bidimensional organizado em linhas e colunas.
+- gap: Define o espaçamento entre elementos em um layout flexível ou em uma grade.
+- justify-content: Alinhamento horizontal (flex-direction: row).
+- align-items: Alinhamento vertical (flex-direction: row).
+- justify-content: Alinhamento vertical (flex-direction: column).
+- align-items: Alinhamento horizontal (flex-direction: column).
 
 <br>
 
@@ -259,25 +238,25 @@ let nota = 2 ** 3;
 
 ## Biblioteca Math
 
->Math.round(): Arredonda um número para o número inteiro mais próximo.
+- Math.round(): Arredonda um número para o número inteiro mais próximo.
 
->Math.floor(): Arredonda um número para baixo, obtendo o maior número inteiro menor ou igual ao valor original.
+- Math.floor(): Arredonda um número para baixo, obtendo o maior número inteiro menor ou igual ao valor original.
 
->Math.ceil(): Arredonda um número para cima, obtendo o menor número inteiro maior ou igual ao valor original.
+- Math.ceil(): Arredonda um número para cima, obtendo o menor número inteiro maior ou igual ao valor original.
 
->Math.abs(): Retorna o valor absoluto de um número (ou seja, torna-o positivo).
+- Math.abs(): Retorna o valor absoluto de um número (ou seja, torna-o positivo).
 
->Math.max(): Retorna o maior valor entre dois ou mais números fornecidos como argumentos.
+- Math.max(): Retorna o maior valor entre dois ou mais números fornecidos como argumentos.
 
->Math.min(): Retorna o menor valor entre dois ou mais números fornecidos como argumentos.
+- Math.min(): Retorna o menor valor entre dois ou mais números fornecidos como argumentos.
 
->Math.random(): Retorna um número decimal aleatório entre 0 (inclusive) e 1 (exclusivo).
+- Math.random(): Retorna um número decimal aleatório entre 0 (inclusive) e 1 (exclusivo).
 
->Math.pow(): Retorna a base elevada à potência especificada.
+- Math.pow(): Retorna a base elevada à potência especificada.
 
->Math.sqrt(): Retorna a raiz quadrada de um número.
+- Math.sqrt(): Retorna a raiz quadrada de um número.
 
->Math.PI: Uma constante que representa o valor de π (pi).
+- Math.PI: Uma constante que representa o valor de π (pi).
 
 <br>
 
@@ -299,6 +278,32 @@ const readline = require("readline-sync");
 const n1 = parseInt(readline.question("Digite um numero: "));
 console.log(n1, typeof n1);
 ```
+
+<br>
+
+## Comparadores
+
+- == OU !== : compara os valores, permitindo a coerção de tipos;
+- === OU !=== : compara os valores e também exige que os tipos sejam idênticos;
+
+<br>
+
+## Valores em contextos booleanos
+
+- Truthy: Valores que são tratados como verdadeiros em contextos booleanos (exemplos: números diferentes de zero, strings não vazias, objetos).
+- Falsy: Valores que são tratados como falsos em contextos booleanos (exemplos: false, 0, null, undefined, NaN, strings vazias).
+
+<br>
+
+## 
+
+
+
+
+
+
+
+
 
 
 <br>
