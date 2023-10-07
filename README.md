@@ -402,8 +402,81 @@ for (const indice in arr) {
 
 <br>
 
+## Template string || Template literals
+
+```
+console.log(`Olá, ${parâmetro}!`);
+```
+
+<br>
+
+## Funções
+
+- Exemplo
+```
+>Estrutura:
+
+function soma(a, b) {
+  return a+b;
+}
 
 
+>Chamada:
+soma(2, 3);
+```
+
+<br>
+
+## Parâmetro padrão em uma função
+
+```
+function saudacao(nomeDoEstudante = "Lucas") {
+  return `Olá, ${nomeDoEstudante}!`;
+}
+```
+
+<br>
+
+## Funções anônimas
+
+```
+const multiplique = function (a, b) {
+  return a * b;
+};
+```
+
+<br>
+
+## Arrow Functions || Função anônima || Função de seta
+
+```
+const subtrair = (a, b) => {
+  return a - b;
+};
+```
+```
+const somar = (a, b) => a + b;
+```
+```
+const triplicar = n => n * 3;
+```
+
+<br>
+
+
+## Objetos (Object Literal)
+
+- chave-valor
+
+```
+const pessoa = {
+  nome: "Lucas",
+  idade: 34,
+  programador: true,
+};
+```
+
+<br>
 
 
 
