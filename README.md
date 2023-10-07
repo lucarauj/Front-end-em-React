@@ -244,25 +244,35 @@ let nota = 2 ** 3;
 
 ## Biblioteca Math
 
-- Math.round(): Arredonda um número para o número inteiro mais próximo.
+- Math.round(): 
+>arredonda um número para o número inteiro mais próximo.
 
-- Math.floor(): Arredonda um número para baixo, obtendo o maior número inteiro menor ou igual ao valor original.
+- Math.floor(): 
+>arredonda um número para baixo, obtendo o maior número inteiro menor ou igual ao valor original.
 
-- Math.ceil(): Arredonda um número para cima, obtendo o menor número inteiro maior ou igual ao valor original.
+- Math.ceil(): 
+>arredonda um número para cima, obtendo o menor número inteiro maior ou igual ao valor original.
 
-- Math.abs(): Retorna o valor absoluto de um número (ou seja, torna-o positivo).
+- Math.abs(): 
+>retorna o valor absoluto de um número (ou seja, torna-o positivo).
 
-- Math.max(): Retorna o maior valor entre dois ou mais números fornecidos como argumentos.
+- Math.max(): 
+>retorna o maior valor entre dois ou mais números fornecidos como argumentos.
 
-- Math.min(): Retorna o menor valor entre dois ou mais números fornecidos como argumentos.
+- Math.min(): 
+>retorna o menor valor entre dois ou mais números fornecidos como argumentos.
 
-- Math.random(): Retorna um número decimal aleatório entre 0 (inclusive) e 1 (exclusivo).
+- Math.random(): 
+>retorna um número decimal aleatório entre 0 (inclusive) e 1 (exclusivo).
 
-- Math.pow(): Retorna a base elevada à potência especificada.
+- Math.pow(): 
+>retorna a base elevada à potência especificada.
 
-- Math.sqrt(): Retorna a raiz quadrada de um número.
+- Math.sqrt(): 
+>retorna a raiz quadrada de um número.
 
-- Math.PI: Uma constante que representa o valor de π (pi).
+- Math.PI: 
+>constante que representa o valor de π (pi).
 
 <br>
 
@@ -413,15 +423,14 @@ console.log(`Olá, ${parâmetro}!`);
 ## Funções
 
 - Exemplo
-```
 >Estrutura:
-
+```
 function soma(a, b) {
   return a+b;
 }
-
-
+```
 >Chamada:
+```
 soma(2, 3);
 ```
 
@@ -474,6 +483,22 @@ const pessoa = {
   idade: 34,
   programador: true,
 };
+```
+
+- Adicionando um parâmetro:
+```
+pessoa.altura = 1.63;
+```
+
+- Excluindo parâmetro:
+```
+delete pessoa.altura;
+```
+
+- Atribuindo valor de um parâmetro a uma variável:
+
+```
+const { nome } = pessoa; 
 ```
 
 <br>
