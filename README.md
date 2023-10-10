@@ -158,28 +158,49 @@
 
 ## Principais estilos CSS
 
-- font-size: Define o tamanho do texto dentro de um elemento.
-- font-weight: Controla a espessura ou peso da fonte do texto.
-- line-height: Controla a altura da linha (espaçamento).
-- color: Define a cor do texto.
-- background-color: Define a cor de fundo de um elemento.
-- font-family: Especifica a família de fontes a ser usada para o texto.
-- margin: Define o espaço externo ao redor de um elemento.
-- padding: Define o espaço interno dentro de um elemento.
-- border: Cria uma borda ao redor de um elemento (largura, estilo e cor).
-- border-radius: Define o raio das bordas arredondadas de um elemento.
-- width: Define a largura de um elemento.
-- height: Define a altura de um elemento.
+- font-size: 
+>define o tamanho do texto dentro de um elemento.
+- font-weight: 
+>controla a espessura ou peso da fonte do texto.
+- line-height: 
+>controla a altura da linha (espaçamento).
+- color: 
+>define a cor do texto.
+- background-color: 
+>define a cor de fundo de um elemento.
+- font-family: 
+>especifica a família de fontes a ser usada para o texto.
+- margin: 
+>define o espaço externo ao redor de um elemento.
+- padding: 
+>define o espaço interno dentro de um elemento.
+- border: 
+>cria uma borda ao redor de um elemento (largura, estilo e cor).
+- border-radius: 
+>define o raio das bordas arredondadas de um elemento.
+- width: 
+>define a largura de um elemento.
+- height: 
+>define a altura de um elemento.
 - displays: block | inline | flex | grid:
-- block: Elementos empilham verticalmente e ocupam toda a largura disponível.
-- inline: Elementos ocupam apenas o espaço necessário no fluxo do texto.
-- flex: Cria um layout flexível em uma direção.
-- grid: Cria um layout bidimensional organizado em linhas e colunas.
-- gap: Define o espaçamento entre elementos em um layout flexível ou em uma grade.
-- justify-content: Alinhamento horizontal (flex-direction: row).
-- align-items: Alinhamento vertical (flex-direction: row).
-- justify-content: Alinhamento vertical (flex-direction: column).
-- align-items: Alinhamento horizontal (flex-direction: column).
+- block: 
+>elementos empilham verticalmente e ocupam toda a largura disponível.
+- inline: 
+>elementos ocupam apenas o espaço necessário no fluxo do texto.
+- flex: 
+>cria um layout flexível em uma direção.
+- grid: 
+>cria um layout bidimensional organizado em linhas e colunas.
+- gap: 
+>define o espaçamento entre elementos em um layout flexível ou em uma grade.
+- justify-content: 
+>alinhamento horizontal (flex-direction: row).
+- align-items: 
+>alinhamento vertical (flex-direction: row).
+- justify-content: 
+>alinhamento vertical (flex-direction: column).
+- align-items: 
+>alinhamento horizontal (flex-direction: column).
 
 <br>
 
@@ -306,8 +327,10 @@ console.log(n1, typeof n1);
 
 ## Valores em contextos booleanos
 
-- Truthy: Valores que são tratados como verdadeiros em contextos booleanos (exemplos: números diferentes de zero, strings não vazias, objetos).
-- Falsy: Valores que são tratados como falsos em contextos booleanos (exemplos: false, 0, null, undefined, NaN, strings vazias).
+- Truthy: 
+>valores que são tratados como verdadeiros em contextos booleanos (exemplos: números diferentes de zero, strings não vazias, objetos).
+- Falsy: 
+>valores que são tratados como falsos em contextos booleanos (exemplos: false, 0, null, undefined, NaN, strings vazias).
 
 > Boolean(0) : false
 > Boolean(null) : false
@@ -485,21 +508,46 @@ const pessoa = {
 };
 ```
 
+<br>
+
 - Adicionando um parâmetro:
 ```
 pessoa.altura = 1.63;
 ```
+
+<br>
 
 - Excluindo parâmetro:
 ```
 delete pessoa.altura;
 ```
 
+<br>
+
 - Atribuindo valor de um parâmetro a uma variável:
 
 ```
 const { nome } = pessoa; 
 ```
+
+<br>
+
+## Funções de Alta Ordem
+
+- First Class Function (Função de Primeira Classe)
+
+>*Podem ser atribuídas a variáveis.*
+*>Podem ser passadas como argumentos para outras funções.*
+>*Podem ser retornadas de outras funções.*
+>*Podem ser armazenadas em estruturas de dados, como arrays e objetos.*
+
+- High Order Function (Função de Ordem Superior)
+
+>*Aceitam uma ou mais funções como argumentos.*
+>*Podem retornar uma função como resultado.*
+>*Permitem abstrair e generalizar operações em funções.*
+>*São usadas para criar funções mais flexíveis e reutilizáveis.*
+>*Exemplos comuns incluem map, filter, reduce e forEach.*
 
 <br>
 
