@@ -452,6 +452,9 @@ function soma(a, b) {
   return a+b;
 }
 ```
+
+<br>
+
 >Chamada:
 ```
 soma(2, 3);
@@ -541,6 +544,8 @@ const { nome } = pessoa;
 >*Podem ser retornadas de outras funções.*
 >*Podem ser armazenadas em estruturas de dados, como arrays e objetos.*
 
+<br>
+
 - High Order Function (Função de Ordem Superior)
 
 >*Aceitam uma ou mais funções como argumentos.*
@@ -548,6 +553,48 @@ const { nome } = pessoa;
 >*Permitem abstrair e generalizar operações em funções.*
 >*São usadas para criar funções mais flexíveis e reutilizáveis.*
 >*Exemplos comuns incluem map, filter, reduce e forEach.*
+
+<br>
+
+## Funções de Alta Ordem - Arrays
+
+- forEach( )
+>*executa uma função em cada elemento de um array.*
+
+<br>
+
+- find( )
+>*encontra o primeiro elemento que satisfaça uma condição.*
+
+<br>
+
+- findIndex( )
+>*encontra o índice do primeiro elemento que atende a uma condição.*
+
+<br>
+
+- every( )
+>*verifica se todos os elementos atendem a uma condição.*
+
+<br>
+
+- some( )
+>*verifica se pelo menos um elemento atende a uma condição.*
+
+<br>
+
+- map( )
+>*cria um novo array ao aplicar uma função a cada elemento.*
+
+<br>
+
+- filter( )
+>*cria um novo array com elementos que atendem a uma condição.*
+
+<br>
+
+- reduce( )
+>*reduz um array a um único valor aplicando uma função de acumulação.*
 
 <br>
 
