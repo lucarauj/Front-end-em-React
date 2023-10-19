@@ -42,3 +42,13 @@ const resultadoPesquisa = pessoas.find((pessoa) => {
 });
 
 console.log(resultadoPesquisa);
+
+console.clear();
+
+// Array.findIndex
+
+const novaPesquisa = pessoas.findIndex((pessoa) => {
+  return pessoa.nome === "Marcos";
+});
+
+console.log("Índice da pessoa encontrada: " + novaPesquisa);

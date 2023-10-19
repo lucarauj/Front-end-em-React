@@ -584,12 +584,12 @@ const { nome } = pessoa;
 <br>
 
 - map( )
->*cria um novo array ao aplicar uma função a cada elemento.*
+>*cria um novo array [mesmo tamamho] ao aplicar uma função a cada elemento.*
 
 <br>
 
 - filter( )
->*cria um novo array com elementos que atendem a uma condição.*
+>*cria um novo array [mesmo tamanho ou menor] com elementos que atendem a uma condição.*
 
 <br>
 
