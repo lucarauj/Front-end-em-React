@@ -540,8 +540,11 @@ const { nome } = pessoa;
 - First Class Function (Função de Primeira Classe)
 
 >*Podem ser atribuídas a variáveis.*
-*>Podem ser passadas como argumentos para outras funções.*
+
+>*Podem ser passadas como argumentos para outras funções.*
+
 >*Podem ser retornadas de outras funções.*
+
 >*Podem ser armazenadas em estruturas de dados, como arrays e objetos.*
 
 <br>
@@ -549,9 +552,13 @@ const { nome } = pessoa;
 - High Order Function (Função de Ordem Superior)
 
 >*Aceitam uma ou mais funções como argumentos.*
+
 >*Podem retornar uma função como resultado.*
+
 >*Permitem abstrair e generalizar operações em funções.*
+
 >*São usadas para criar funções mais flexíveis e reutilizáveis.*
+
 >*Exemplos comuns incluem map, filter, reduce e forEach.*
 
 <br>
@@ -598,6 +605,50 @@ const { nome } = pessoa;
 
 <br>
 
+## Assincronismo
+
+<br>
+
+- Callbacks [função ou chamada de retorno]
+>*funções que são passadas como argumentos para outras funções.*
+
+>*são amplamente usados para lidar com operações assíncronas.*
+
+>*permitem que o código continue executando enquanto aguarda a conclusão de uma operação assíncrona.*
+
+<hr>
+<br>
+
+- Promises [promessas]
+
+>*Pending (Pendente): a operação ainda não foi concluída.*
+
+>*Fulfilled (Cumprida): a operação assíncrona é bem-sucedida.*
+
+>*Rejected (Rejeitada): a operação assíncrona falha [retorna um erro].*
+
+>*Chaining (Encadeamento): podem ser encadeadas usando then() permitindo a execução de operações assíncronas em uma sequência específica.*
+
+<hr>
+
+>*são objetos usados para representar valores que podem estar disponíveis agora, no futuro ou nunca.*
+
+>*são uma abordagem mais estruturada para lidar com operações assíncronas em comparação com callbacks.*
+
+>*têm estados (pendente, resolvida ou rejeitada) e permitem que você encadeie operações assíncronas de forma mais legível.*
+
+<hr>
+<br>
+
+- Promises utilizando async/await
+
+>*o async é usado para declarar funções assíncronas.*
+
+>*o await é usado para esperar que uma Promise seja resolvida.*
+
+<hr>
+<br>
+
 
 
 <br>
@@ -607,4 +658,3 @@ const { nome } = pessoa;
 Lucas Araujo
 
 <a href="https://www.linkedin.com/in/lucarauj"><img alt="lucarauj | LinkdeIN" width="40px" src="https://user-images.githubusercontent.com/43545812/144035037-0f415fc7-9f96-4517-a370-ccc6e78a714b.png" /></a>
-
