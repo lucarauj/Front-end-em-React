@@ -415,7 +415,7 @@ console.clear( );
 
 <br>
 
-## for-of - percorrendo os elementos
+## for-of -> percorrendo os elementos
 
 ```
 for (const elemento of 'array') {
@@ -425,7 +425,7 @@ for (const elemento of 'array') {
 
 <br>
 
-## for-in - percorrendo os índices 
+## for-in -> percorrendo os índices 
 
 ```
 for (const indice in arr) {
@@ -446,6 +446,9 @@ console.log(`Olá, ${parâmetro}!`);
 ## Funções
 
 - Exemplo
+
+<br>
+
 >Estrutura:
 ```
 function soma(a, b) {
@@ -500,6 +503,8 @@ const triplicar = n => n * 3;
 
 
 ## Objetos (Object Literal)
+
+<br>
 
 - chave-valor
 
@@ -649,6 +654,60 @@ const { nome } = pessoa;
 <hr>
 <br>
 
+## JSON
+
+<br>
+
+- JavaScript Object Notation.
+- formatação leve de troca de dados.
+- arquivo de configuração.
+- coleção de pares chave-valor.
+
+<hr>
+<br>
+
+- Convertendo um arquivo .JSON para String ou Objeto
+
+```
+const fs = require('fs');
+
+fs.readFile('./aula-13-json/arquivo.json', (erro, dados) => {
+    if(erro) {
+        console.log('Erro:' + erro);
+    } else {
+        console.log(String(dados)); //String
+        console.log(JSON.parse(dados)); //Objeto 
+    }
+});
+```
+
+<br>
+
+- Convertendo um Objeto js em uma String
+
+```
+const jsonObjeto = { "nome": "Lucas", "idade": 34, "altura": 1.63 };
+
+const jsonString = JSON.stringify(jsonObjeto);
+```
+
+<hr>
+<br>
+
+## Npm x Npx
+
+- npm: 
+>*Gerenciador de pacotes para instalar e manter dependências permanentes em projetos.*
+
+<br>
+
+- npx: 
+>*Ferramenta para executar comandos de pacotes temporariamente, sem instalar globalmente.*
+
+<hr>
+<br>
+
+## 
 
 
 <br>
