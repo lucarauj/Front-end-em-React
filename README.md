@@ -707,7 +707,57 @@ const jsonString = JSON.stringify(jsonObjeto);
 <hr>
 <br>
 
-## 
+## APIs
+
+<br>
+
+- Interface de Programação de Aplicações
+- Protocolos: RPC, SOAP, GraphQL e REST 
+
+<hr>
+<br>
+
+## Restrições para uma API REST(Representational State Transfer)
+
+- Arquitetura Cliente-Servidor: 
+
+>*A API deve seguir um modelo cliente-servidor, onde o cliente e o servidor são entidades separadas e independentes.*
+
+- Estado (Stateless): 
+
+>*Cada solicitação do cliente para o servidor deve conter todas as informações necessárias para compreender e processar a solicitação. O servidor não deve manter informações sobre o estado da sessão do cliente entre solicitações.*
+
+- Interface Uniforme: 
+
+>*A API deve ter uma interface uniforme com recursos identificados por URLs e um conjunto predefinido de operações, como GET, POST, PUT e DELETE.*
+
+- Sistema em Camadas: 
+
+>*A arquitetura pode ser composta por camadas interligadas, onde cada camada tem uma função específica. Isso permite escalabilidade e flexibilidade na implementação.*
+
+- Mensagem em formato de representação: 
+
+>*Os dados trocados entre o cliente e o servidor devem ser representados em um formato comum, como XML ou JSON, para que o cliente possa compreendê-los.*
+
+- Uso de HATEOAS: 
+
+>*O servidor deve fornecer links hipermídia nas respostas para permitir que o cliente navegue pela API de forma dinâmica, descobrindo novos recursos e ações.*
+
+<hr>
+<br>
+
+## Fetch API
+
+<br> 
+
+- interface JS para fazer requisições de rede em aplicativos da web.
+- permite fazer requisições HTTP, como GET, POST, PUT, DELETE.
+- A função fetch é assíncrona e pode retornar um erro, por isso, precisamos fazer um tratamento de erros (try/catch || then/catch).
+
+<hr>
+<br>
+
+## TypeScript
 
 
 <br>
