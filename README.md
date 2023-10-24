@@ -24,9 +24,15 @@
 
 <br>
 
-## npm
+## Npm x Npx
 
-- Gerenciador de pacotes;
+- npm: 
+>*Gerenciador de pacotes para instalar e manter dependências permanentes em projetos.*
+
+<br>
+
+- npx: 
+>*Ferramenta para executar comandos de pacotes temporariamente, sem instalar globalmente.*
 
 <br>
 
@@ -91,7 +97,6 @@
 - Lista enumerada: \<ol>\<li>
 - Tags de uso genérico: \<div>, \<span>
 
-<hr>
 
 ```
 < a href="https://www.google.com/" target="_blank">Google</a>
@@ -104,8 +109,6 @@
 <img src="images/html5.png" alt="logotipo da linguagem HTML5">
 ```
 - alt="logotipo da linguagem HTML5": descrição da imagem
-
-<hr>
 
 <br>
 
@@ -235,8 +238,6 @@ node .\aula-06\index.js
 - const: tem escopo de bloco, sofre hoisting, mas não pode ser reatribuída após a inicialização.
 
 <br>
-
-<hr>
 
 - hoisting: 
 >*declarações de variáveis e funções são movidas para o topo de seu escopo durante a fase de compilação, tornando-as disponíveis antes de sua declaração real no código.*
@@ -621,7 +622,6 @@ const { nome } = pessoa;
 
 >*permitem que o código continue executando enquanto aguarda a conclusão de uma operação assíncrona.*
 
-<hr>
 <br>
 
 - Promises [promessas]
@@ -642,7 +642,6 @@ const { nome } = pessoa;
 
 >*têm estados (pendente, resolvida ou rejeitada) e permitem que você encadeie operações assíncronas de forma mais legível.*
 
-<hr>
 <br>
 
 - Promises utilizando async/await
@@ -651,7 +650,6 @@ const { nome } = pessoa;
 
 >*o await é usado para esperar que uma Promise seja resolvida.*
 
-<hr>
 <br>
 
 ## JSON
@@ -663,7 +661,6 @@ const { nome } = pessoa;
 - arquivo de configuração.
 - coleção de pares chave-valor.
 
-<hr>
 <br>
 
 - Convertendo um arquivo .JSON para String ou Objeto
@@ -691,20 +688,6 @@ const jsonObjeto = { "nome": "Lucas", "idade": 34, "altura": 1.63 };
 const jsonString = JSON.stringify(jsonObjeto);
 ```
 
-<hr>
-<br>
-
-## Npm x Npx
-
-- npm: 
->*Gerenciador de pacotes para instalar e manter dependências permanentes em projetos.*
-
-<br>
-
-- npx: 
->*Ferramenta para executar comandos de pacotes temporariamente, sem instalar globalmente.*
-
-<hr>
 <br>
 
 ## APIs
@@ -714,10 +697,11 @@ const jsonString = JSON.stringify(jsonObjeto);
 - Interface de Programação de Aplicações
 - Protocolos: RPC, SOAP, GraphQL e REST 
 
-<hr>
 <br>
 
-## Restrições para uma API REST(Representational State Transfer)
+## Restrições para uma API REST (Representational State Transfer)
+
+<br>
 
 - Arquitetura Cliente-Servidor: 
 
@@ -743,7 +727,6 @@ const jsonString = JSON.stringify(jsonObjeto);
 
 >*O servidor deve fornecer links hipermídia nas respostas para permitir que o cliente navegue pela API de forma dinâmica, descobrindo novos recursos e ações.*
 
-<hr>
 <br>
 
 ## Fetch API
@@ -754,7 +737,6 @@ const jsonString = JSON.stringify(jsonObjeto);
 - permite fazer requisições HTTP, como GET, POST, PUT, DELETE.
 - A função fetch é assíncrona e pode retornar um erro, por isso, precisamos fazer um tratamento de erros (try/catch || then/catch).
 
-<hr>
 <br>
 
 ## TypeScript
