@@ -741,6 +741,22 @@ const jsonString = JSON.stringify(jsonObjeto);
 
 ## TypeScript
 
+- Configuração
+
+```
+1. Inicializar um projeto Node.js
+- npm init ou npm init -y (yes para todas opções)
+
+2. Instalar o TypeScript
+- global: npm instal -g typescript
+- local: npm instal typescript -dev (desenvolvimento)
+
+3. Compilar o TypeScript
+- npx tsc "nome-do-arquivo.ts" 
+(--watch: opção para a compilação do .ts para .js ser feita automaticamente)
+(--target: versão do .js utilizada no projeto)
+- npx tsc --init: inicializa todas as configurações do do .ts dentro do projeto)
+```
 
 <br>
 
