@@ -759,6 +759,19 @@ const jsonString = JSON.stringify(jsonObjeto);
 - npx tsc --init: inicializa todas as configurações do do .ts dentro do projeto)
 ```
 
+<hr>
+
+- Recapitulando...
+
+>*npm init ou npm init -y*
+
+>*npm install typescript -dev*
+
+>*npx tsc --init*
+
+>*npx tsc --watch*
+
+<hr>
 <br>
 
 ## Type *versus* Interface
@@ -815,6 +828,18 @@ interface PessoaInterface {
 
 - Record: 
 >*usado para criar tipos que representam objetos com chaves específicas e tipos de valores, útil para definir tipos de dicionário ou mapeamento.*
+
+<br>
+
+## Programação Orientada a Objetos - Encapsulamento
+
+<br>
+
+- private: torna um membro acessível somente dentro da própria classe.
+
+- readonly: indica que uma variável de instância não pode ser modificada após a inicialização.
+
+- accessors: get permite a leitura, set permite a modificação de membros com lógica personalizada.
 
 <br>
 
