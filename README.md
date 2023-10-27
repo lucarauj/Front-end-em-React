@@ -748,15 +748,73 @@ const jsonString = JSON.stringify(jsonObjeto);
 - npm init ou npm init -y (yes para todas opções)
 
 2. Instalar o TypeScript
-- global: npm instal -g typescript
-- local: npm instal typescript -dev (desenvolvimento)
+- global: npm install -g typescript
+- local: npm install typescript -dev (desenvolvimento)
 
 3. Compilar o TypeScript
 - npx tsc "nome-do-arquivo.ts" 
 (--watch: opção para a compilação do .ts para .js ser feita automaticamente)
 (--target: versão do .js utilizada no projeto)
+
 - npx tsc --init: inicializa todas as configurações do do .ts dentro do projeto)
 ```
+
+<br>
+
+## Type *versus* Interface
+
+- type: 
+>*permite criar tipos mais flexíveis, incluindo uniões, interseções e tipos primitivos. É útil quando você precisa criar tipos complexos ou combinar tipos existentes.*
+
+```
+type PessoaType = {
+    nome: string,
+    idade: number
+}
+```
+<br>
+
+- interface: 
+>*usada para descrever a estrutura de objetos e classes. É útil para definir contratos e implementação de classes.*
+
+```
+interface PessoaInterface {
+    nome?: string,
+    idade: number
+}
+```
+
+<br>
+
+## Utility Types
+
+- Partial: 
+>*permite que você torne todas as propriedades de um tipo opcional, transformando um tipo em um tipo onde todas as propriedades podem ser null ou undefined.*
+
+<br>
+
+- Required: 
+>*faz o oposto do Partial, tornando todas as propriedades de um tipo obrigatórias, removendo a opção de ser null ou undefined.*
+
+<br>
+
+- Pick: 
+>*permite que você selecione um subconjunto de propriedades de um tipo e crie um novo tipo com base nesse subconjunto.*
+
+<br>
+
+- Omit: 
+>*permite que você exclua um subconjunto de propriedades de um tipo e crie um novo tipo sem essas propriedades.*
+
+<br>
+
+- Exclude: 
+>*usado principalmente com tipos de união (union types) e ajuda a criar um novo tipo excluindo os tipos que são subtipos de outros tipos em uma união.*
+
+<br>
+
+- Record: 
+>*usado para criar tipos que representam objetos com chaves específicas e tipos de valores, útil para definir tipos de dicionário ou mapeamento.*
 
 <br>
 
