@@ -833,15 +833,121 @@ interface PessoaInterface {
 
 ## Programação Orientada a Objetos - Encapsulamento
 
-<br>
+- <h4>private:</h4> torna um membro acessível somente dentro da própria classe.
 
-- private: torna um membro acessível somente dentro da própria classe.
+- <h4>readonly:</h4> indica que uma variável de instância não pode ser modificada após a inicialização.
 
-- readonly: indica que uma variável de instância não pode ser modificada após a inicialização.
-
-- accessors: get permite a leitura, set permite a modificação de membros com lógica personalizada.
+- <h4>accessors:</h4> get permite a leitura, set permite a modificação de membros com lógica personalizada.
 
 <br>
+
+## Browser API
+
+- Web API Notifications: gerencia notificações;
+- Web Audio API: manipula áudios no navegador;
+- Web Storage API: armazena dados no navegador;
+
+<hr>
+
+## DOM API (Document Object Model)
+
+- Favorece a representação de documentos HTML ou XML em nós e objetos;
+- Para toda página web contida em navegador, existe um objeto *document* que a representa;
+
+<hr>
+
+- Atributos - DOM
+
+>*document.title*
+>*document.URL*
+>*document.images*
+>*document.forms*
+>*document.head*
+>*document.body*
+
+
+<hr>
+
+- document.title:
+>*pega o título da página.*
+
+- document.URL:
+>*pega a URL da página.*
+
+- document.getElementsByTagName('h1'):
+>*retorna uma lista de todos os elementos <h1> na página.*
+
+- document.getElementsByClassName("parágrafo"):
+>*retorna uma lista de elementos que possuem a classe "parágrafo".*
+
+- document.getElementsByName('email'):
+>*retorna uma lista de elementos com o atributo name definido como "email".*
+
+- document.getElementById('js-logo'):
+>*rdocument.getElementById('js-logo').*
+
+- document.querySelector('body > img'):
+>*retorna o primeiro elemento <img> dentro do elemento <body>.*
+
+- document.querySelectorAll('p'):
+>*retorna uma lista de todos os elementos <p> na página usando querySelectorAll.*
+
+- document.querySelector(' ').textContent:
+>*retorna apenas o texto dentro de um elemento, excluindo tags HTML.*
+
+- document.querySelector(' ').innerHTML:
+>*retorna o conteúdo completo de um elemento, incluindo texto e tags HTML.*
+
+- document.querySelector('p.parágrafo').textContent = 'Parágrafo alterado <strong>textContent</strong>':
+>*saída na página: Parágrafo alterado <strong>textContent</strong>.*
+
+- document.querySelector('p.parágrafo').innerHTML = 'Parágrafo alterado <strong>innerHTML</strong>':
+>*saída na página: Parágrafo alterado.*
+
+<hr>
+
+- const novaTag = document.createElement('li'):
+>*cria uma nova tag.*
+
+- novaTag.textContent = "Segundo item":
+>*adiciona conteúdo na nova tag.*
+
+- const lista = document.querySelector('ul#lista'):
+>*pega a lista.*
+
+- lista.appendChild(novaTag):
+>*adiciona um item na lista.*
+
+<hr>
+
+- const outraTag = document.createElement('li'):
+>*cria uma nova tag.*
+
+- outraTag.textContent = "Segundo item":
+>*adiciona conteúdo na nova tag.*
+
+- const novaLista = document.querySelector('ul#outra-lista'):
+>*pega a lista.*
+
+- const elementoExistente = novaLista.querySelectorAll('li')[1]:
+>*seleciona o segundo item.*
+
+- novaLista.insertBefore(outraTag, elementoExistente):
+>*insere a nova tag antes do segundo item.*
+
+<hr>
+
+- const elementoExistente = novaLista.querySelectorAll('li')[2]:
+>*seleciona o segundo item.*
+
+- novaLista.removeChild(outroElementoExistente):
+>*remove o elemento da lista.*
+
+<hr>
+
+
+
+
 
 # 👨🏼‍🎓 Aluno
 
