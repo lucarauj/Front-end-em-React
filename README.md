@@ -848,6 +848,7 @@ interface PessoaInterface {
 - Web Storage API: armazena dados no navegador;
 
 <hr>
+<br>
 
 ## DOM API (Document Object Model)
 
@@ -859,12 +860,16 @@ interface PessoaInterface {
 - Atributos - DOM
 
 >*document.title*
->*document.URL*
->*document.images*
->*document.forms*
->*document.head*
->*document.body*
 
+>*document.URL*
+
+>*document.images*
+
+>*document.forms*
+
+>*document.head*
+
+>*document.body*
 
 <hr>
 
@@ -875,7 +880,7 @@ interface PessoaInterface {
 >*pega a URL da página.*
 
 - document.getElementsByTagName('h1'):
->*retorna uma lista de todos os elementos <h1> na página.*
+>*retorna uma lista de todos os elementos \<h1> na página.*
 
 - document.getElementsByClassName("parágrafo"):
 >*retorna uma lista de elementos que possuem a classe "parágrafo".*
@@ -890,7 +895,7 @@ interface PessoaInterface {
 >*retorna o primeiro elemento <img> dentro do elemento <body>.*
 
 - document.querySelectorAll('p'):
->*retorna uma lista de todos os elementos <p> na página usando querySelectorAll.*
+>*retorna uma lista de todos os elementos \<p> na página usando querySelectorAll.*
 
 - document.querySelector(' ').textContent:
 >*retorna apenas o texto dentro de um elemento, excluindo tags HTML.*
@@ -898,10 +903,10 @@ interface PessoaInterface {
 - document.querySelector(' ').innerHTML:
 >*retorna o conteúdo completo de um elemento, incluindo texto e tags HTML.*
 
-- document.querySelector('p.parágrafo').textContent = 'Parágrafo alterado <strong>textContent</strong>':
->*saída na página: Parágrafo alterado <strong>textContent</strong>.*
+- document.querySelector('p.parágrafo').textContent = 'Parágrafo alterado \<strong>textContent</strong>':
+>*saída na página: Parágrafo alterado \<strong>textContent</strong>.*
 
-- document.querySelector('p.parágrafo').innerHTML = 'Parágrafo alterado <strong>innerHTML</strong>':
+- document.querySelector('p.parágrafo').innerHTML = 'Parágrafo alterado \<strong>innerHTML</strong>':
 >*saída na página: Parágrafo alterado.*
 
 <hr>
@@ -938,16 +943,50 @@ interface PessoaInterface {
 <hr>
 
 - const elementoExistente = novaLista.querySelectorAll('li')[2]:
->*seleciona o segundo item.*
+>*seleciona o segundo item da lista.*
 
 - novaLista.removeChild(outroElementoExistente):
 >*remove o elemento da lista.*
 
 <hr>
+<br>
 
+## Escuta de Eventos e Estilos
 
+- addEventListener:
 
+>* **'click':** é acionado quando um botão é clicado e dispara uma ação.*
 
+>* **'input':** captura entrada de texto em elementos de formulário e campos de entrada.*
+
+>* **'submit':** lida com a submissão de formulários.*
+
+<br>
+
+## Web Storage API
+
+- Armazenamento de dados do lado do cliente;
+- Client-side Storage:
+
+>* **Cookies:** armazena dados no navegador, usados para rastrear, autenticar e personalizar a experiência do usuário. Pode ser persistente (permanece após o fechamento do navegador) ou de sessão (é excluído ao fechar o navegador).*
+
+>* **Local Storage:** armazena dados no navegador de forma persistente, útil para configurações e preferências do usuário. Permanece mesmo após o fechamento do navegador.*
+
+>* **Session Storage:** armazena dados no navegador para a duração de uma única sessão, excluído ao fechar o navegador. Útil para dados temporários.*
+
+- Métodos *Local Storage* | *Session Storage*:
+
+>*setItem(key, value)*
+
+>*getItem*
+
+>*removeItem*
+
+>*clear*
+
+<br>
+
+<br>
 
 # 👨🏼‍🎓 Aluno
 
