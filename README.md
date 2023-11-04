@@ -974,7 +974,7 @@ interface PessoaInterface {
 
 >* **Session Storage:** armazena dados no navegador para a duração de uma única sessão, excluído ao fechar o navegador. Útil para dados temporários.*
 
-- Métodos *Local Storage* | *Session Storage*:
+- Métodos *'Local Storage'* | *'Session Storage'*:
 
 >*setItem(key, value)*
 
@@ -985,6 +985,12 @@ interface PessoaInterface {
 >*clear*
 
 <br>
+
+## Projeto Lista de Tarefas
+
+[Clique aqui!]()
+
+<hr>
 
 <br>
 
