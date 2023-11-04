@@ -988,7 +988,7 @@ interface PessoaInterface {
 
 ## Projeto Lista de Tarefas
 
-[Clique aqui!]()
+[Clique aqui!](https://github.com/lucarauj/Front-end-em-React/tree/main/Front-end%20Din%C3%A2mico/lista-de-tarefas)
 
 <hr>
 
