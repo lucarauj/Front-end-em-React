@@ -3,7 +3,7 @@
 <h1 align="center">Curso Front-end em React</h1>
 
 <h2 align="center">
-  <img width="400px" src="https://github.com/lucarauj/Front-end-em-React/tree/main/modulos.png">
+  <img width="600px" src="https://github.com/lucarauj/Front-end-em-React/blob/main/modulos.png">
 </h2>
 
 <br>
