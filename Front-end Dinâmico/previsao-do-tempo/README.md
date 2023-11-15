@@ -60,7 +60,7 @@ API_KEY = {minha API KEY}
 <hr>
 <br> 
 
-## Installando a biblioteca ```dotenv``` para carregar as variáveis de ambiente
+## Instalando a biblioteca ```dotenv``` para carregar as variáveis de ambiente
 
 ```
 npm install dotenv
