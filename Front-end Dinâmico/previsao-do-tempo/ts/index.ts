@@ -1,6 +1,10 @@
+import * as dotenv from 'dotenv';
+dotenv.config();
+
 const form = document.querySelector('#search-form > form');
 const input: HTMLInputElement | null = document.querySelector('#input-localizacao');
 const sectionTempoInfo = document.querySelector('#tempo-info');
+const apiKey = process.env.API_KEY;
 
 form?.addEventListener('submit', async (event) => {
     event.preventDefault();
@@ -11,7 +15,7 @@ form?.addEventListener('submit', async (event) => {
         return;
     }
     try {
-        const resposta = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${localizacao}&appid={be87a7eb06084523e825abf53a2e****}&lang=pt_br&units=metric`);
+        const resposta = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${localizacao}&appid=${apiKey}&lang=pt_br&units=metric`);
     
         const dados = await resposta.json();
         const infos = {

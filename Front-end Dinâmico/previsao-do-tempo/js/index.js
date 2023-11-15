@@ -21,7 +21,7 @@ form === null || form === void 0 ? void 0 : form.addEventListener('submit', (eve
         return;
     }
     try {
-        const resposta = yield fetch(`https://api.openweathermap.org/data/2.5/weather?q=${localizacao}&appid={be87a7eb06084523e825abf53a2e****}&lang=pt_br&units=metric`);
+        const resposta = yield fetch(`https://api.openweathermap.org/data/2.5/weather?q=${localizacao}&appid=be87a7eb06084523e825abf53a2e7543&lang=pt_br&units=metric`);
         const dados = yield resposta.json();
         const infos = {
             temperatura: Math.round(dados.main.temp),

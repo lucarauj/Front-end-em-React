@@ -23,7 +23,7 @@ https://openweathermap.org/img/wn/02d@2x.png
 <hr>
 <br>
 
-## Criando projeto Node 
+## Criando projeto Node.js
 
 ```
 npm init -y
@@ -46,6 +46,15 @@ npm install -D typescript
 ```
 npx tsc --init
 npx tsc --watch
+```
+
+<hr>
+<br> 
+
+## Criando arquivo .env para configurar variáveis de ambiente
+
+```
+REACT_APP_KEY = {minha API KEY}
 ```
 
 <hr>
