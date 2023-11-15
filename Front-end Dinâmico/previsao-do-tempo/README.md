@@ -54,7 +54,16 @@ npx tsc --watch
 ## Criando arquivo .env para configurar variáveis de ambiente
 
 ```
-REACT_APP_KEY = {minha API KEY}
+API_KEY = {minha API KEY}
+```
+
+<hr>
+<br> 
+
+## Installando a biblioteca ```dotenv``` para carregar as variáveis de ambiente
+
+```
+npm install dotenv
 ```
 
 <hr>
