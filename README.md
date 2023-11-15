@@ -1,6 +1,10 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/lucarauj/Front-end-em-React/blob/main/LICENSE)
 
-# Curso Front-end em React
+<h1 align="center">Curso Front-end em React</h1>
+
+<h2 align="center">
+  <img width="400px" src="https://github.com/lucarauj/Front-end-em-React/tree/main/modulos.png">
+</h2>
 
 <br>
 <br>
