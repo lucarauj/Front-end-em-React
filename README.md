@@ -1,5 +1,19 @@
-# Front-end em React
+# Curso Front-end em React
 
+<br>
+<br>
+
+## Projeto Lista de Tarefas
+
+[ 🖱 Clique aqui! 🖱 ](https://github.com/lucarauj/Front-end-em-React/tree/main/Front-end%20Din%C3%A2mico/lista-de-tarefas)
+
+<br>
+
+## Projeto Previsão do Tempo
+
+[ 🖱 Clique aqui! 🖱 ](https://github.com/lucarauj/Front-end-em-React/tree/main/Front-end%20Din%C3%A2mico/previsao-do-tempo)
+
+<br>
 <br>
 
 ## HTML (Hypertext Markup Language)
@@ -1085,12 +1099,6 @@ interface PessoaInterface {
 >*removeItem*
 
 >*clear*
-
-<br>
-
-## Projeto Lista de Tarefas
-
-[Clique aqui!](https://github.com/lucarauj/Front-end-em-React/tree/main/Front-end%20Din%C3%A2mico/lista-de-tarefas)
 
 <hr>
 
