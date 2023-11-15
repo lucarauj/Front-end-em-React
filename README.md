@@ -1,3 +1,5 @@
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/lucarauj/Front-end-em-React/blob/main/LICENSE)
+
 # Curso Front-end em React
 
 <br>
