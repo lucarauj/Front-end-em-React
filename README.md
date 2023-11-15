@@ -151,6 +151,108 @@
 
 <br>
 
+## Tipos de Input
+
+<br>
+
+- Exemplo type text:
+
+\<input type="text" id="name">
+>*O atributo type="text" está especificando o tipo de valor que aquele input receberá.*
+
+<hr><br>
+
+- Exemplo type button:
+
+\<input type="button" value="Clique aqui">
+>*Type="button" cria um botão simples e que é atribuído para um evento, no qual o usuário pode clicar.*
+
+>*Não é necessário criar esse input dentro de um form.*
+
+<hr><br>
+
+- Exemplo type checkbox:
+  
+\<input type="checkbox" id="checkbox-example">
+>*Type="checkbox" é utilizado para que o usuário escolha mais de uma opção.*
+
+<hr><br>
+
+- Exemplo type date:
+  
+\<input type="date" id="date-example">
+>*Type="date" é utilizado para que o usuário possa escolher uma data.*
+
+<hr><br>
+
+- Exemplo type e-mail:
+  
+\<input type="email" id="email-example">
+>*Type="email" é utilizado para que o usuário possa passar uma entrada cujo valor seja um e-mail.*
+
+>*Ao usar o atributo required (estudaremos posteriormente sua funcionalidade), o texto que não tenha @ não é reconhecido como type="email".*
+
+<hr><br>
+
+- Exemplo type file:
+  
+\<input type="file" id="file-example">
+>*Type="file" é utilizado para que o usuário possa fazer upload de um arquivo.*
+
+<hr><br>
+
+- Exemplo type number:
+  
+\<input type="number" id="number-example">
+>*Type="number" é utilizado para que o usuário possa passar uma entrada cujo valor seja um número.*
+
+<hr><br>
+
+- Exemplo type password:
+  
+\<input type="password" id="password-example">
+>*Type="password" é utilizado para que o usuário insira uma entrada cujo valor seja o de uma senha.*
+>*Os caracteres inseridos aparecem como ocultos.*
+
+<hr><br>
+
+- Exemplo type radio:
+  
+\<input type="radio" id="radio-example">
+>*Type="radio" são bolinhas em que o usuário irá fazer uma seleção.*
+
+<hr><br>
+
+- Exemplo type range:
+  
+\<input type="range" id="range-example">
+>*Type="range" é uma opção dinâmica, na qual o usuário pode especificar um valor numérico que não deve ser inferior a um determinado valor.*
+
+<hr><br>
+
+- Exemplo type search:
+  
+\<input type="search" id="search-example">
+>*Type="search" é utilizado para que o usuário possa passar uma entrada que permitirá realizar uma pesquisa dentro do site.*
+
+>*Para realizar essa pesquisa, será feito um filtro, no qual será criada uma lógica no Back-End e integrada ao Front-End.</p>*
+
+<hr><br>
+
+- Exemplo type submit:
+
+\<input type="submit" id="btn-enviar" name="btn-enviar" required>
+>*Type="submit" é utilizado para que o usuário possa enviar uma entrada.*
+
+<hr><br>
+
+- Exemplo type tel:
+  
+\<input type="tel" id="tel-example">
+>*Type="tel" é utilizado para que o usuário possa passar uma entrada cujo valor seja um número.*
+
+<br>
+
 ## HTML Layout
 
 - \<link rel="stylesheet" href="style.css">
